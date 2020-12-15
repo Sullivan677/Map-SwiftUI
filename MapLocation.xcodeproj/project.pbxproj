@@ -13,6 +13,7 @@
 		752AF70F2587B0DC00794789 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 752AF70E2587B0DC00794789 /* Preview Assets.xcassets */; };
 		752AF71A2587B0DC00794789 /* MapLocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752AF7192587B0DC00794789 /* MapLocationTests.swift */; };
 		752AF7252587B0DD00794789 /* MapLocationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752AF7242587B0DD00794789 /* MapLocationUITests.swift */; };
+		752AF7362587BD6C00794789 /* annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752AF7352587BD6C00794789 /* annotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		752AF7202587B0DD00794789 /* MapLocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapLocationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		752AF7242587B0DD00794789 /* MapLocationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLocationUITests.swift; sourceTree = "<group>"; };
 		752AF7262587B0DD00794789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		752AF7352587BD6C00794789 /* annotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = annotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				752AF7072587B0DB00794789 /* MapLocationApp.swift */,
 				752AF7092587B0DB00794789 /* ContentView.swift */,
+				752AF7352587BD6C00794789 /* annotation.swift */,
 				752AF70B2587B0DC00794789 /* Assets.xcassets */,
 				752AF7102587B0DC00794789 /* Info.plist */,
 				752AF70D2587B0DC00794789 /* Preview Content */,
@@ -261,6 +264,7 @@
 			files = (
 				752AF70A2587B0DB00794789 /* ContentView.swift in Sources */,
 				752AF7082587B0DB00794789 /* MapLocationApp.swift in Sources */,
+				752AF7362587BD6C00794789 /* annotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
